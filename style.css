@@ -1,0 +1,34 @@
+/* Global properties */
+html {
+    scroll-behavior: smooth;
+}
+body{
+    background: #252525;
+    font-family: "baloo tamma 2", cursive;
+}
+/* main heading font */
+-heading{
+    font-family: "roboto slab", serif;
+}
+/* Navugation */
+.navigation-link{
+    border:2px solid transparent;
+}
+.navigation-link:hover {
+    text-decoration: none;
+    border-bottom: 2px solid #f5baf5;
+    transition: 0.5s ease;
+}
+.text-white{
+    color:#25252
+
+}
+/* Main Container */
+.main-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: right;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
